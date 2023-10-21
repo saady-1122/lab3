@@ -55,10 +55,26 @@ int main(int argc, char **argv) {
     //TODO: handle this case (log_a(b))
     result = log(b)/log(a);
     printf("%f" ,result);
-    
+
   } else {
     printf("Please input a valid operator next time");
   }
 
   return 0;
 }
+
+
+
+/*
+Enter operand a: 10
+Enter operand b: 20
+Enter operation:  
+(1) Addition      
+(2) Subtraction   
+(3) Multiplication
+(4) Division      
+(5) Minimum       
+(6) log_a(b)      
+4
+0.500000
+*/
