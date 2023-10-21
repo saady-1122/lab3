@@ -82,7 +82,7 @@ int main(int argc, char **argv) {
     numPassed = numPassed + 1;
   }
 
-  year = 2036
+  year = 2036;
   printf("Test Case 6: year = %d: ", year);
   if(!isLeapYear(year)) {
     printf("FAILED!\n");
@@ -124,4 +124,20 @@ return 0;
 }
 
 }
-}
+
+
+
+/*
+Test Case 1: year = 2000: Year is the leap yearPASSED!
+Test Case 2: year = 2001: Year is the leap yearFAILED!
+Test Case 3: year = 2100: Year is the leap yearFAILED!
+Test Case 4: year = 2028: Year is the leap yearPASSED!
+Test Case 5: year = 2032: Year is the leap yearPASSED!
+Test Case 6: year = 2036: Year is the leap yearPASSED!
+
+
+Summary:
+Number of test cases passed: 4
+Number of test cases failed: 2
+Percentage Passed: 66.67%
+*/
