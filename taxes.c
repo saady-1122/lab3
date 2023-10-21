@@ -67,3 +67,16 @@ else{  tax = 0.10 *agi;
 
   return 0;
 }
+
+
+
+
+/*
+Please enter your adjusted gross income (AGI): 100000  
+Do you have any children? (Y) or (N)? y
+How many children do you have? 5
+AGI:          $ 100000.00     
+Tax:          $  13497.00     
+Child Credit: $  10000.00     
+Total Tax:    $      0.00 
+*/
